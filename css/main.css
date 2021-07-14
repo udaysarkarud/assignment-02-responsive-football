@@ -44,6 +44,11 @@ header{
 .hero-info h1{
     font-size: 64px;
     line-height: 80px;
+    transition: transform 1s ease;
+}
+
+.hero-info h1:hover{
+    transform: rotate(360deg);
 }
 
 .hero-section img {
